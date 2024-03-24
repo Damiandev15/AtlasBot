@@ -1,0 +1,6 @@
+# Ignore Node.js files
+node_modules/
+npm-debug.log
+
+# Ignore config.json
+config.json
