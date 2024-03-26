@@ -1,0 +1,45 @@
+# AtlasBot
+
+AtlasBot is a Discord bot built with Discord.js that provides ticketing and moderation functionality.
+
+## Features
+
+- Ticketing System: Users can create support tickets for assistance.
+- Moderation Commands: Kick, ban, mute, and more.
+- Customizable Prefix: Set a custom prefix for bot commands.
+- Logging: Logs important events and actions.
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/your-username/AtlasBot.git`
+2. Install dependencies: `npm install`
+3. Configure the bot: Rename `config.example.json` to `config.json` and fill in the required information.
+4. Start the bot: `node index.js`
+
+## Usage
+
+- To create a ticket, use the command `!ticket create`.
+- To moderate a user, use commands like `!kick`, `!ban`, `!mute`, etc.
+- For a list of all available commands, use `!help`.
+
+## Configuration
+
+In the `config.json` file, you can customize the following options:
+
+- `token`: Your Discord bot token.
+- `prefix`: The prefix to use for bot commands.
+- `logChannel`: The channel ID where logs will be sent.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to AtlasBot, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature`
+3. Make your changes and commit them: `git commit -am 'Add your feature'`
+4. Push to the branch: `git push origin feature/your-feature`
+5. Submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
